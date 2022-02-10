@@ -1,38 +1,47 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main{
+  padding-left: 15%;
+  padding-right: 15%;
+  height: 100vh;
+  background-color: rgba(33,33,33,.8);
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-blend-mode: saturation;
+  background-image: url('https://miro.medium.com/max/1400/1*5lyavS59mazOFnb55Z6znQ.png');
+
+}
+.register{
+  width: 40%;
+  padding: 40px 40px;
+   /* height: 450px; */
+   background-color: white;
+   background-size: cover;
+   display: flex;
+   flex-direction: column;
+   row-gap: 10px;
+   border-radius: 5px;
+}
+.register> input{
+  height: 35px;
+  margin-bottom: 20px;
+  outline: none;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  text-indent: 20px;
+}
+.register>button{
+  width: 50%;
+  height: 40px;
+  background-color: #21d742;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 17px;
+  border-radius: 5px;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.title{
+  font-weight: 200;
+  font-size: 30px;
 }
