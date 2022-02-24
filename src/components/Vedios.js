@@ -6,6 +6,7 @@ function Vedios(){
     let token = JSON.parse(localStorage.getItem("vs_details")).token;
     console.log(token)
   useEffect(()=>{
+      
       fetch("http://localhost:8000/vedio/getvedios",{
           headers:{
              "Authorization":`Bearer ${token}`
